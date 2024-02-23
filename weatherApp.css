@@ -39,6 +39,7 @@ button[type="submit"]:hover{
 .card{
     background: linear-gradient(180deg, hsl(210, 100%, 75%),hsl(40, 100%, 75%));
     padding:50px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.5);
     min-width: 300px;
     display: flex;
@@ -70,7 +71,7 @@ p{
 }
 
 .descDisplay{
-    font-size: italic;
+    font-style: italic;
     font-weight: bold;
     font-size: 2rem;
 }

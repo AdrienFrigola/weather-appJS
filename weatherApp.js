@@ -71,7 +71,7 @@ function displayWeatherInfo(data){
     card.appendChild(descDisplay);
     card.appendChild(weatherEmoji);
 }
-
+ 
 function getWeatherEmoji(weatherId){
     switch(true){
         case (weatherId >= 200 && weatherId < 300):
